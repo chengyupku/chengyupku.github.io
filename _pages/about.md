@@ -2,16 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Hi, this is Yu Cheng (程羽), a second-year graduate student at Peking University. I received my B.S. (Summa Cum Laude) from Turing Class at Peking University in 2022.
+I am advised by Prof. Zhi Yang. I am also a research intern in System Research Group of Microsoft Research Asia (MSRA), supervised by Dr. Jilong Xue and Dr. Lingxiao Ma. 
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts

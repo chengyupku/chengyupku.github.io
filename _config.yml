@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Yu
 middle_name: 
 last_name: Cheng
-email: yu.cheng [at] pku.edu.cn
+email: yu.cheng@pku.edu.cn
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -127,10 +127,10 @@ permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
-  enabled: true
+  enabled: false
 
 related_blog_posts:
-  enabled: true
+  enabled: false
   max_related: 5
 
 # Giscus comments (RECOMMENDED)
@@ -171,6 +171,16 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  experiences:
+    defaults:
+      layout: post
+    output: true
+    permalink: /experiences/:path/
+  teaching:
+    defaults:
+      layout: post
+    output: true
+    permalink: /teaching/:path/
 
 announcements:
   enabled: true
@@ -272,8 +282,8 @@ display_categories: ['blockquotes'] # these categories will be displayed on the 
 
 scholar:
 
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Cheng]
+  first_name: [Yu]
 
   style: apa
   locale: en

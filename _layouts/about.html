@@ -55,14 +55,18 @@ layout: default
 
           <!-- Selected papers -->
           {% if page.selected_papers -%}
-            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
+            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">publications</a></h2>
             {%- include selected_papers.html %}
           {%- endif %}
+
+          <!-- Experiences -->
+          <h2><a href="{{ '/experiences/' | relative_url }}" style="color: inherit;">experiences</a></h2>
+          {%- include experiences.html limit=true %}
 
           <!-- Teaching -->
           {% if page.teaching -%}
             <h2><a href="{{ '/teaching/' | relative_url }}" style="color: inherit;">teaching</a></h2>
-            {%- include teaching.html %}
+            {%- include teaching.html limit=true %}
           {%- endif %}
 
           <!-- Social -->

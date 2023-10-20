@@ -2,7 +2,10 @@
 layout: about
 title: about
 permalink: /
-subtitle: Hi, this is Yu Cheng (程羽), a second-year graduate student at Peking University. I received my B.S. (Summa Cum Laude) from Turing Class at Peking University in 2022. I am advised by Prof. Zhi Yang. I am also a research intern in System Research Group of Microsoft Research Asia (MSRA), supervised by Dr. Jilong Xue and [Dr. Lingxiao Ma](https://xysmlx.github.io/). 
+subtitle: 
+
+Hi, this is Yu Cheng (程羽), a second-year graduate student at Peking University. I received my B.S. (Summa Cum Laude) from Turing Class at Peking University in 2022. I am advised by Prof. Zhi Yang. I am also a research intern in System Research Group of Microsoft Research Asia (MSRA), supervised by Dr. Jilong Xue and 
+[Dr. Lingxiao Ma](https://xysmlx.github.io/). 
 
 profile:
   align: right

@@ -12,3 +12,7 @@
 "OSDI":
   url: https://www.usenix.org/conference/osdi25
   color: "#6a1b9a"
+
+"EuroSys":
+  url: https://2025.eurosys.org/index.html
+  color: "#8B0000"

@@ -16,3 +16,6 @@
 "EuroSys":
   url: https://2025.eurosys.org/index.html
   color: "#8B0000"
+
+"Arxiv":
+  color: "#808080"

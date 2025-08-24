@@ -1,7 +1,8 @@
 ---
 title: TileLang
 layout: project
-date: 2025-01
+month: "Jan"
+year: 2025
 selected: true
 permalink: /projects/tilelang/
 img: "assets/img/tilelang.svg"

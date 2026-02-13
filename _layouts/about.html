@@ -55,8 +55,32 @@ layout: default
 
           <!-- Selected papers -->
           {% if page.selected_papers -%}
-            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">publications</a></h2>
+            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
             {%- include selected_papers.html %}
+          {%- endif %}
+
+          <!-- Projects -->
+          {% if page.projects -%}
+            <h2><a href="{{ '/projects/' | relative_url }}" style="color: inherit;">projects</a></h2>
+            <div class="publications">
+              <ol class="bibliography">
+              {%- assign sorted_projects = site.projects | sort: 'year' | reverse -%}
+              {%- for project in sorted_projects -%}
+                {%- if project.selected -%}
+                <li>
+                  <div class="row">
+                    <div class="col-sm-2">
+                      <div class="title"><a href="{{ project.repo_url }}" target="_blank"><b>{{ project.title }}</b></a></div>
+                    </div>
+                    <div class="col-sm-10">
+                      <div class="periodical"><em>{{ project.description }}</em></div>
+                    </div>
+                  </div>
+                </li>
+                {%- endif -%}
+              {%- endfor -%}
+              </ol>
+            </div>
           {%- endif %}
 
           <!-- Experiences -->

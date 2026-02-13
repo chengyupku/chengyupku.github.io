@@ -135,6 +135,11 @@
         <div class="periodical">
           {{ entry.note | strip }}
         </div>
+        {%- if entry.award %}
+        <div class="award-text">
+          {{ entry.award }} Presentation
+        </div>
+        {%- endif %}
 
           <!-- Links/Buttons -->
           <div class="links">

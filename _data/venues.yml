@@ -17,5 +17,13 @@
   url: https://2025.eurosys.org/index.html
   color: "#8B0000"
 
+"ICLR":
+  url: https://iclr.cc/
+  color: "#1565c0"
+
+"PPoPP":
+  url: https://ppopp.acm.org/
+  color: "#e65100"
+
 "Arxiv":
   color: "#808080"
